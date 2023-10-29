@@ -1,5 +1,6 @@
 # Predicting employee attrition
-![rating](https://github.com/Julez89/ds_phase_5/tree/main/images/rating.jpg)
+![rating](https://github.com/Julez89/ds_phase_5/blob/main/images/rating.jpg)
+
 
 ## Project Overview
 For this project, I tried different classification methods to predict attrition in employees based on a data set from Kaggle.
@@ -26,7 +27,7 @@ This project uses a data set with around 1400 employees from Kaggle. The dataset
 It's a binary classification problem (attrition yes vs. no) and we have a strong class imbalance. 16% of the employees are leaving and the other 84% are staying.
 This will be addressed by applying SMOTE during the process.
 
-![target](https://github.com/Julez89/ds_phase_5/tree/main/images/attrition.jpg)
+![target](https://github.com/Julez89/ds_phase_5/blob/main/images/attrition.jpg)
 
 I've included instructions in the notebook on how to access the data from Kaggle. You will have to insert your Kaggle username and API Key to run the code.
 
@@ -60,7 +61,7 @@ Before looking at hyperparameter tuning, I tried a XGBoost Classifier which perf
 Next, I'm using GridSearchCV for both the logistic regression and the random forest model to decide which model works best with tuned hyperparameters. 
 Even though there it is not perfect, I'm choosing the random forest model as it has the highest class 1 recall of 0.74. I am aware that the precision of class 1 (0.28) is not good but I am ok with this compromise.
 
-![matrix](https://github.com/Julez89/ds_phase_5/tree/main/images/confusion.jpg)
+![matrix](https://github.com/Julez89/ds_phase_5/blob/main/images/confusion.jpg)
 
 ## Evaluation
 
@@ -84,10 +85,10 @@ In any case, we already know the most important factors (overtime, income, job s
 salary progression and other benefits.
 
 ## This repository
-My technical code is stored in this [jupyter notebook](https://github.com/Julez89/ds_phase_5/tree/main/Deliverables/notebook.pdf)
+My technical code is stored in this [jupyter notebook](https://github.com/Julez89/ds_phase_5/blob/main/Deliverables/notebook.pdf)
 
-My presentation can be found [here](https://github.com/Julez89/ds_phase_5/tree/main/Deliverables/presentation.pdf)
+My presentation can be found [here](https://github.com/Julez89/ds_phase_5/blob/main/Deliverables/presentation.pdf)
 
-My github repository is [here](hhttps://github.com/Julez89/ds_phase_5/tree/main/Deliverables/github.pdf)
+My github repository is [here](https://github.com/Julez89/ds_phase_5/blob/main/Deliverables/github.pdf)
 
-A list of libraries and versions can be found [here](https://github.com/Julez89/ds_phase_5/tree/main/requirements.txt)
+A list of libraries and versions can be found [here](https://github.com/Julez89/ds_phase_5/blob/main/requirements.txt)
