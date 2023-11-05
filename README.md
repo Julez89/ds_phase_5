@@ -59,14 +59,14 @@ I tried the same model with lowered threshold (prioritizing recall and sacrifici
 Before looking at hyperparameter tuning, I tried a XGBoost Classifier which performed similar as the random forest model.
 
 Next, I'm using GridSearchCV for both the logistic regression and the random forest model to decide which model works best with tuned hyperparameters. 
-Even though there it is not perfect, I'm choosing the random forest model as it has the highest class 1 recall of 0.74. I am aware that the precision of class 1 (0.28) is not good but I am ok with this compromise.
+Even though there it is not perfect, I'm choosing the random forest model as it has the highest class 1 recall of 0.72. I am aware that the precision of class 1 (0.28) is not good but I am ok with this compromise.
 
 ![matrix](https://github.com/Julez89/ds_phase_5/blob/main/images/confusion.jpg)
 
 ## Evaluation
 
 My final model is a tuned random forest model after standardization and SMOTE with specified parameters such as max depth, minimum sample split and the number of estimators as well as a lowered threshold. 
-My final model has a weighted average recall of .71. My model successfully identifies about 74% of the employees who actually leave and does not miss too many people who leave. It identifies still too many people as potential leavers who don't have an itention to leave.
+My final model has a weighted average recall of .71. My model successfully identifies about 72% of the employees who actually leave and does not miss too many people who leave. It identifies still too many people as potential leavers who don't have an itention to leave.
 We can improve the model by collecting more data.
 
 ## Conclusion
