@@ -69,6 +69,19 @@ My final model is a tuned random forest model after standardization and SMOTE wi
 My final model has a weighted average recall of .71. My model successfully identifies about 72% of the employees who actually leave and does not miss too many people who leave. It identifies still too many people as potential leavers who don't have an itention to leave.
 We can improve the model by collecting more data.
 
+## Recommendation
+The evaluation of the feature importances of my final model shows that the top five contributing factors to employees leaving are:
+- Overtime:  is by far the most important factor and it has a positive correlation with attrition. This means that if people have to work overtime, they are more likely to leave.
+- Stock Options: is negatively correlated with attrition. If people don't have the option to buy stocks, they are more likely to resign. Offering stocks could be a good option to retain employees who are at risk of leaving.
+- Monthly Income: also negatively correlated with attrition - the more people earn, the less likely they are to leave. Think about offering employees a raise to prevent them from leaving.
+- Job Satisfaction: also has a negative correlation with attrition. Work with employee's team leaders to understand what the employees with low job satisfaction are missing and how the experience on the job can be improved.
+- Work Life Balance:  also negatively correlation with attrition. The poorer the work life balance, the more likely employees are willing to leave. This matches the most important factor of overtime.
+
+![factors](https://github.com/Julez89/ds_phase_5/blob/main/images/factors.jpg)
+
+For my stakeholder, this means that they should review their HR policies and consider for example to compensate overtime or prevent employees from working too much.
+Also, they can review how they offer stocks to the employee and when to consider raises.
+
 ## Conclusion
 In times of a very difficult recruiting market where there are more vacancies than candidates, it is really important to retain your employees and focus on developing and reskilling them. 
 Sometimes, it comes very unexpected when an employee resigns and it's especially painful when they are one of your top performers or if they resign after only a short time with the company. 
@@ -92,3 +105,6 @@ My presentation can be found [here](https://github.com/Julez89/ds_phase_5/blob/m
 My github repository is [here](https://github.com/Julez89/ds_phase_5/blob/main/Deliverables/github.pdf)
 
 A list of libraries and versions can be found [here](https://github.com/Julez89/ds_phase_5/blob/main/requirements.txt)
+
+## Contact
+The author of this repository is Julia Müller, you can contact me via [Linkedin](https://www.linkedin.com/in/julia-m%C3%BCller-47363062/)
